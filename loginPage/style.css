@@ -18,6 +18,8 @@ body {
     box-sizing: border-box;
     padding: 30px;
     justify-content: center;
+    transform: translateY(100%);
+    animation: slideDown 2s ease-out forwards;
 }
 
 .right {
