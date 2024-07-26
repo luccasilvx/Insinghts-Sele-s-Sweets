@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0; /* Fixa a navbar no topo */
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 0.3rem solid #eeeeee;
+    z-index: 1000;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; /* Alinha o conteúdo na parte inferior */
+    padding: 10px 0;
+}
+
+.menu-content h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #CECAB0;
+}
+
+nav a {
+    color: #CECAB0;
+    text-decoration: none;
+    padding: 10px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 0.3rem solid gray;
+    color: #333;
+}
+
+.section {
+    padding: 60px 20px;
+    margin-top: 60px; /* Para compensar a altura do menu fixo */
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #CECAB0;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav-links {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.nav-links a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background: #e0e0e0;
+}
